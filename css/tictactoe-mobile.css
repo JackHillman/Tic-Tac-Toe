@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start */
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #EEE;
+	height: 100%;
+}
+
+.blank {
+	background: url("../images/blank.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.naught {
+	background: url("../images/naught.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cross {
+	background: url("../images/cross.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+table {
+	background-color: #EEE;
+	width: 100%;
+	height: 100%;
+}
+td {
+	border: 10px solid #EEE;
+	height: 120px;
+}
+tr {
+	width: 100%;
+	height: 33.3333%;
+}
+#table {
+	width: 100%;
+	height: 100%;
+}
+.gameOver {
+	position: fixed !important;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	top: 0;
+}
+.gameOverBack {
+	width: 100%;
+	height: 100%;
+}
+.gameOverBack p {
+	text-align: center;
+	padding: 40% 0 80% 0;
+}
+.resetButton {
+	height: 100px;
+	width: 100%;
+	background: #61b2e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #61b2e8 0%, #3b96dc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#61b2e8), color-stop(100%,#3b96dc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #61b2e8 0%,#3b96dc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #61b2e8 0%,#3b96dc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #61b2e8 0%,#3b96dc 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #61b2e8 0%,#3b96dc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b2e8', endColorstr='#3b96dc',GradientType=0 ); /* IE6-9 */
+	bottom: 0;
+	color: #FFF;
+	display: table;
+	cursor: pointer;
+}
+.resetButton p {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 1px 0 0 0;
+	font-weight: 900;
+	font-size: 1.2em;
+	text-shadow: 0 1px 0 #000022;
+}

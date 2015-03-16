@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/tictactoe.js"></script>
+
+	<link rel="stylesheet" media="(min-width: 960px)" href="css/tictactoe.css">
+	<link rel="stylesheet" media="(max-width: 960px)" href="css/tictactoe-mobile.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+	<div id="table">
+	<table>
+		<tr>
+			<td class="blank" id="1"></td>
+			<td class="blank" id="2"></td>
+			<td class="blank" id="3"></td>
+		</tr>
+		<tr>
+			<td class="blank" id="4"></td>
+			<td class="blank" id="5"></td>
+			<td class="blank" id="6"></td>
+		</tr>
+		<tr>
+			<td class="blank" id="7"></td>
+			<td class="blank" id="8"></td>
+			<td class="blank" id="9"></td>
+		</tr>
+	</table>
+	</div>
+	<div id="winMessage" class="gameOver">
+		<div class="gameOverBack"><p>Congratulations, you win!</p>
+		<div class="resetButton"><p>Reset</p></div></div>
+	</div>
+	<div id="loseMessage" class="gameOver">
+		<div class="gameOverBack"><p>Less congratulations, you managed to lose!</p>
+		<div class="resetButton"><p>Reset</p></div></div>
+	</div>
+	<div id="tieMessage" class="gameOver">
+		<div class="gameOverBack"><p>Tie game, try again?</p>
+		<div class="resetButton"><p>Reset</p></div></div>
+	</div>
+</body>
+</html>
